@@ -1,0 +1,402 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #f5f7FA;
+}
+
+.container {
+    margin: 0 0 40px 0;
+}
+
+.last {
+    margin-bottom: 0;
+}
+
+a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #000;
+}
+
+p {
+    margin: 0;
+}
+
+/* MAIN */
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content {
+    background-color: #fff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding-top: 105px;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-bottom: 100px;
+}
+
+.secondary-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #000000;
+
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+/* ABOUT */
+.about-position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+
+.about-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+
+    color: #000000;
+
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.about-discription{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #595959;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* PROJECTS */
+.projects-list {
+    padding-left: 20px;
+    margin: 0px;
+}
+
+.project-item {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #000000;
+
+    margin-top: 5px;
+}
+
+.project-name {
+    display: inline-block;
+
+    margin-bottom: 15px;
+}
+
+.project-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #595959;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #595959;
+}
+
+.project-bracket {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.repository-github {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 15px;
+    color: white;
+    background-color: #007FFF;
+
+    border-radius: 24px;
+    border: 1px solid transparent;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.page {
+    background-color: white;
+    color: #007FFF;
+
+    border: 1px solid #565e6a;
+}
+
+.repository-github:hover {
+    color: #007FFF;
+    background-color: white;
+
+    border: 1px solid #565e6a;
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.repository-github.page:hover {
+    color: white;
+    background-color: #0060c1;
+
+    border: 1px solid transparent;
+}
+
+.repository-icon {
+    width: 20px;
+    height: 20px;
+
+    padding-left: 5px;
+    
+    fill: currentColor;
+}
+
+.repository-lang {
+    margin-top: -10px;
+}
+
+
+/* EDUCATION */
+.educ-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FB6D3A;
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.education-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.education-item {
+    margin-bottom: 20px;
+}
+
+.educ-list-title {
+    color: #007FFF;
+
+    margin: 0 0 8px 0;
+}
+
+.educ-list-secondary-title {
+    margin: 0;
+}
+
+.educ-text {
+    margin: 0;
+}
+
+.educ-wrapper {
+    color: #007FFF;
+}
+
+
+/* SIDE BAR */
+.side-bar {
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+}
+
+.side-wrapper {
+    background-color: rgba(255,255,255,0.8);
+
+    box-shadow: -15px 0px 39px 18px rgba(0,0,0,0.09);
+
+    width: 370px;
+    height: 100%;
+}
+
+.photo {
+    width: 370px;
+
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.sidebar-title {
+    color: #007FFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.contacts-list {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    list-style: none;
+    padding: 0;
+}
+
+.contacts, .tech-skills, .soft-skills, .languages {
+    margin-left: 40px;
+}
+
+.contacts {
+    margin-bottom: 50px;
+}
+
+.contact-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+
+    color: #565e6a;
+    padding-bottom: 1px;
+}
+
+.contact-link::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #007FFF;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 250ms ease;
+}
+
+.contact-link:hover::before {
+    transform: scaleX(1);
+}
+
+.social-link {
+    text-decoration: none;
+}
+
+.social-list {
+    display: flex;
+    list-style: none;
+    padding: 0 0 0 40px;
+    justify-content: space-between;
+    padding-right: 80px;
+
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.social-button {
+    display: inline-flex;
+
+    padding: 12px;
+    color: white;
+    background-color: #007FFF;
+
+    border-radius: 50%;
+    border: 1px solid transparent;
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.github {
+    padding: 10px;
+}
+
+.social-button:hover {
+    color: #007FFF;
+    background-color: white;
+
+    border: 1px solid #565e6a;
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.social-icon {
+    width: 16px;
+    height: 16px;
+    
+    fill: currentColor;
+}
+
+.github-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.tech-skills {
+    margin-bottom: 50px;
+}
+
+.sidebar-list {
+    color: #007FFF;
+    padding: 0;
+
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+
+.sidebar-item-text {
+    color: #565e6a;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.soft-skills {
+    margin-bottom: 50px;
+} 
+
