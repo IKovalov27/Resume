@@ -245,12 +245,11 @@ p {
 /* SIDE BAR */
 .side-bar {
     background-image: url(./images/background.jpg);
-    background-size: cover;
+    background-size: 100%;
 }
 
 .side-wrapper {
     background-color: rgba(255,255,255,0.9);
-
     box-shadow: -15px 0px 39px 18px rgba(0,0,0,0.09);
 
     width: 370px;
