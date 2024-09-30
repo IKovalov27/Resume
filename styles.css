@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
 
-    background-color: #f5f7FA;
+    /*background-color: #f5f7FA;*/
 }
 
 .container {
@@ -30,13 +30,13 @@ p {
 .main {
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px;
+   /* width: 1200px;*/
     margin: 0 auto;
 }
 
 .main-content {
     background-color: #fff;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);*/
     padding-top: 105px;
     padding-right: 90px;
     padding-left: 90px;
@@ -250,7 +250,7 @@ p {
 
 .side-wrapper {
     background-color: rgba(255,255,255,0.9);
-    box-shadow: -15px 0px 39px 18px rgba(0,0,0,0.09);
+    /*box-shadow: -15px 0px 39px 18px rgba(0,0,0,0.09);*/
 
     width: 370px;
     height: 1775px;
@@ -327,8 +327,13 @@ p {
     display: flex;
     list-style: none;
     padding: 0 0 0 40px;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    justify-content: center;
+    gap: 35px;
+
     padding-right: 80px;
+
+
 
     margin-top: 20px;
     margin-bottom: 0;
